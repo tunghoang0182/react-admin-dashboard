@@ -23,7 +23,7 @@ function App() {
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
-        <CssBaseline />
+        <CssBaseline />  
         <div className="app">
           <Sidebar isSidebar={isSidebar} />
           <main className="content">
